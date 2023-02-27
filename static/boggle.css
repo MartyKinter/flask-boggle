@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(62, 129, 254)
+}
+.boggle{
+    text-align: center;
+}
+.title{
+    font-size: 4em;
+    margin: 0;
+    border-bottom: 1px solid black;
+    color: white;
+    text-shadow: black 0px 0px 2px;
+}
+.board{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+
+}
+.scoreboard{
+    color: white;
+    margin: 0;
+    font-size: 1.5em;
+}
+.add-word{
+    color: white;
+    margin: 5px;
+}
+.msg{
+    color: rgb(197, 37, 37);
+    font-size: 2em;
+    margin: 5px;
+}
+.words{
+    color: white;
+    list-style-position: inside;
+}
+td{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 0px;
+    background-color: white;
+    font-weight: 700;
+}
+td:hover{
+    background-color: gray;
+}
+.hidden{
+    display: none;
+}
